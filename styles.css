@@ -223,10 +223,15 @@ nav a {
 .slider-content {
     width: 600px;
     max-width: 100%;
+    height: 500px;
     background-color: #ededed;
     padding: 20px;
     border-radius: 8px;
     text-align: center;
+    display: flex; 
+    align-items: center; 
+    justify-content: center;
+    overflow: hidden;
 }
 
 .slider button.prev,
@@ -245,8 +250,8 @@ nav a {
 }
 
 .slider-content img {
-    max-width: 100%;
-    height: auto;
+    max-height: 100%;
+    width: auto;
     border: 1px solid #ccc;
     border-radius: 4px;
     margin: 0 auto;
